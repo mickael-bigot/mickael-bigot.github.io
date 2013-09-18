@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+html, body {
+    background-color: #f8b133;
+    background-image: url('/images/background-01.png');
+    background-attachment: fixed;
+    background-position: center top;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.site {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    background-color: #fff;
+    height: 100%;
+    box-shadow: 0 0 15px 0px #888;
+    .header {
+        background-color: #33c6cd;
+        width: 100%;
+        text-align: center;
+        h1, h2 {
+            color: #fff;
+            text-transform: uppercase;
+        }
+        h1 {
+            padding-top: 50px;
+            font-size: 90px;
+            em {
+                font-weight: bold;
+            }
+        }
+        h2 {
+            padding-bottom: 30px;
+            font-size: 42px;
+            em {
+                color: #e6ba63;
+            }
+        }
+        ul {
+            border-top: 1px solid #fff;
+            text-align: right;
+            li {
+                text-transform: uppercase;
+                display: inline-block;
+                font-size: 25px;
+                text-align: center;
+                color: #fff;
+                text-decoration: none;
+                line-height: 40px;
+                &:nth-child(1) {
+                    width: 144px;
+                }
+                &:nth-child(2) {
+                    width: 224px;
+                }
+                &:nth-child(3) {
+                    width: 304px;
+                }
+                &:nth-child(4) {
+                    width: 104px;
+                }
+                &:nth-child(5) {
+                    width: 184px;
+                }
+                &:hover {
+                    background-color: #fff;
+                }
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    display: block;
+                    &:hover {
+                        color: #33c6cd;
+                    }
+                }
+            }
+        }
+    }
+}
