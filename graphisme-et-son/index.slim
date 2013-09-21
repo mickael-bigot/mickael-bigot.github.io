@@ -1,3 +1,13 @@
 ---
 layout: default
+title: Mickaël Bigot
 ---
+
+ul.posts
+  {% for post in site.categories.graphisme-et-son %}
+    li
+      a href="{{ post.url }}"
+        img src="/images/{{ post.image }}"
+        h3 {{ post.title }}
+        p {{ post.description }}
+  {% endfor %}

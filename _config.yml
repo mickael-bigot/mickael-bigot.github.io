@@ -3,4 +3,4 @@ markdown: redcarpet
 pygments: true
 sass:
     syntax: scss
-    style:  compressed
+    style:  normal
