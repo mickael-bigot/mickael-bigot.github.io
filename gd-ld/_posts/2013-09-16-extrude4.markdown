@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Extrude"
+image: "sample.jpg"
+description: "Ceci est un petit chat avec un noeud papillon. Il est mignon le petit chat. Lorem Ipsum, blahblah blah."
+---
+
+Extruder, OU extraire une forme 2D dans un espace 3D, c'est votre arme
+    ! Des cubes composent la zone dans laquelle vous évoluez !
+    Extrudez ses faces pour vous créer un chemin vers la sortie !
+    Attention, certains reviennent à leur position d'origine avec le
+    temps ! Certains cubes peuvent être pivotés... Certaines
+    extrusions en provoquent d'autres... Plusieurs subtilités à
+    découvrir au fur des niveaux.
