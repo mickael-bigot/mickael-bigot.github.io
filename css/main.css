@@ -4,21 +4,22 @@ html, body {
   background-image: url("/images/background-01.png");
   background-attachment: fixed;
   background-position: center top;
+  background-repeat: no-repeat;
   font-family: 'Varela Round', sans-serif; }
 
 .site {
   width: 960px;
   margin: 0 auto 0 auto;
   background-color: #fff;
-  min-height: 100%;
   box-shadow: 0 0 15px 0px #888; }
   @media (max-width: 960px) {
     .site {
       width: 100%; } }
   .site .header {
     background-color: #33c6cd;
-    width: 100%;
     text-align: center; }
+    .site .header em {
+      font-weight: bold; }
     .site .header h1, .site .header h2 {
       color: #fff;
       text-transform: uppercase; }
@@ -26,15 +27,12 @@ html, body {
       padding-top: 50px;
       font-size: 90px;
       letter-spacing: 4px; }
-      .site .header h1 em {
-        font-weight: bold; }
     .site .header h2 {
       padding-bottom: 40px;
       font-size: 45px;
       letter-spacing: 8px; }
       .site .header h2 em {
-        color: #d6aa53;
-        font-weight: bold; }
+        color: #d6aa53; }
     .site .header ul {
       border-top: 1px solid #fff;
       text-align: left;
@@ -55,13 +53,12 @@ html, body {
           width: 104px; }
         .site .header ul li:nth-child(5) {
           width: 184px; }
-        .site .header ul li:hover {
-          background-color: #fff; }
         .site .header ul li a {
-          color: #fff;
           text-decoration: none;
+          color: #fff;
           display: block; }
-          .site .header ul li a:hover {
+          .site .header ul li a:hover, .site .header ul li a.active {
+            background-color: #fff;
             color: #33c6cd; }
           .site .header ul li a em {
             color: #d6aa53; }
