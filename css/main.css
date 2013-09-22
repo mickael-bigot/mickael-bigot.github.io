@@ -1,0 +1,131 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+html, body {
+  background-color: #f8b133;
+  background-image: url("/images/background-01.png");
+  background-attachment: fixed;
+  background-position: center top;
+  font-family: 'Varela Round', sans-serif; }
+
+.site {
+  width: 960px;
+  margin: 0 auto 0 auto;
+  background-color: #fff;
+  min-height: 100%;
+  box-shadow: 0 0 15px 0px #888; }
+  @media (max-width: 960px) {
+    .site {
+      width: 100%; } }
+  .site .header {
+    background-color: #33c6cd;
+    width: 100%;
+    text-align: center; }
+    .site .header h1, .site .header h2 {
+      color: #fff;
+      text-transform: uppercase; }
+    .site .header h1 {
+      padding-top: 50px;
+      font-size: 90px;
+      letter-spacing: 4px; }
+      .site .header h1 em {
+        font-weight: bold; }
+    .site .header h2 {
+      padding-bottom: 40px;
+      font-size: 45px;
+      letter-spacing: 8px; }
+      .site .header h2 em {
+        color: #d6aa53;
+        font-weight: bold; }
+    .site .header ul {
+      border-top: 1px solid #fff;
+      text-align: left;
+      font-size: 0; }
+      .site .header ul li {
+        text-transform: uppercase;
+        display: inline-block;
+        font-size: 25px;
+        text-align: center;
+        line-height: 40px; }
+        .site .header ul li:nth-child(1) {
+          width: 144px; }
+        .site .header ul li:nth-child(2) {
+          width: 224px; }
+        .site .header ul li:nth-child(3) {
+          width: 304px; }
+        .site .header ul li:nth-child(4) {
+          width: 104px; }
+        .site .header ul li:nth-child(5) {
+          width: 184px; }
+        .site .header ul li:hover {
+          background-color: #fff; }
+        .site .header ul li a {
+          color: #fff;
+          text-decoration: none;
+          display: block; }
+          .site .header ul li a:hover {
+            color: #33c6cd; }
+          .site .header ul li a em {
+            color: #d6aa53; }
+  .site .main {
+    padding: 40px 40px; }
+    .site .main p {
+      line-height: 115%;
+      text-align: justify;
+      font-size: 16px; }
+    .site .main ul.posts {
+      font-size: 0; }
+      .site .main ul.posts li {
+        padding: 0px 21px 40px 21px;
+        display: inline-block;
+        width: 250px;
+        vertical-align: top; }
+        .site .main ul.posts li img {
+          width: 100%;
+          height: 250px; }
+        .site .main ul.posts li a {
+          color: #000;
+          font-weight: bold;
+          text-decoration: none; }
+          .site .main ul.posts li a:hover img {
+            opacity: 0.7; }
+        .site .main ul.posts li h3 {
+          font-size: 25px;
+          text-transform: uppercase;
+          padding: 20px 0 10px 0; }
+    .site .main article {
+      padding: 0px 21px; }
+      .site .main article h3 {
+        font-size: 30px;
+        padding: 20px 0 10px 0;
+        text-transform: uppercase; }
+      .site .main article.post .content {
+        width: 294px;
+        display: inline-block;
+        vertical-align: top; }
+        .site .main article.post .content p {
+          text-align: left; }
+      .site .main article.post img {
+        width: 100%;
+        height: 250px; }
+      .site .main article.post ul.images {
+        display: inline-block;
+        width: 540px;
+        font-size: 0; }
+        .site .main article.post ul.images li {
+          width: 250px;
+          display: inline-block;
+          padding: 20px 0 0 20px; }
+      .site .main article ul.cv {
+        padding: 0 0 20px 0; }
+        .site .main article ul.cv li {
+          clear: both;
+          padding: 5px 0 5px 0; }
+          .site .main article ul.cv li p {
+            padding-top: 10px; }
+          .site .main article ul.cv li > span.title {
+            min-width: 50px;
+            display: inline-block;
+            color: #d6aa53;
+            font-weight: bold; }
+          .site .main article ul.cv li > span.complement {
+            float: right;
+            color: #666; }
