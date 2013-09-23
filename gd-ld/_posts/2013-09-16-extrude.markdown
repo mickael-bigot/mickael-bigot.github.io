@@ -2,7 +2,7 @@
 layout: post
 title:  "Extrude"
 image: "sample.jpg"
-description: "Ceci est un petit chat avec un noeud papillon. Il est mignon le petit chat. Lorem Ipsum, blahblah blah."
+description: "La vie est si belle que j'en jouis des papillons."
 wide_image: "wide-sample.jpg"
 image_1:  "http://tonsite.free.fr/image.jpg"
 image_2: "sample.jpg"
