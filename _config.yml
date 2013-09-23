@@ -1,6 +1,3 @@
 name: Mickel Bigot
 markdown: redcarpet
 pygments: true
-sass:
-    syntax: scss
-    style:  normal
